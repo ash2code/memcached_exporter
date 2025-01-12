@@ -3,6 +3,7 @@ module github.com/prometheus/memcached_exporter
 go 1.23.0
 
 require (
+	github.com/prometheus/memcached_exporter v0.15.0
 	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/grobie/gomemcache v0.0.0-20230213081705-239240bbc445
 	github.com/prometheus/client_golang v1.20.5
